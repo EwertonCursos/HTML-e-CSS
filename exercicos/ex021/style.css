@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: idroid;
+    src: url('fontes/idroid.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #416D8C;
+    margin: 0px;
+}
+
+header {
+    background-image: linear-gradient(to top, #0B2B42, #134C75, #416D8C);
+    box-shadow: 0px 2px 10px 2px;
+    margin: 0px -400px 50px 0px;
+    padding: 60px;
+    align-items: center;
+
+}
+
+main {
+    display: inline-flex;
+    justify-content: center;
+    position: relative;
+    background-color: rgb(228, 224, 224);
+    margin: 0px 200px;
+    padding: 20px 0px 900px;
+    border: 1px solid#121e27a2;
+    border-radius: 6px;
+    box-shadow: 0px 2px 10px 2px;
+    align-items: center;
+    
+}
+
+nav {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: -40px;
+    display: flex;
+    justify-content: left;
+    position: absolute;
+    text-align: center;
+
+
+}
+
+nav>a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-align: right;
+    margin: 15px;
+    padding: -10px;
+}
+
+header>h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 8px;
+    font-family: 'idroid', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-right: 400px;
+
+}
+
+header>h2 {
+    text-align: center;
+    color: white;
+    margin: 10px;
+    padding: 2px; 
+    padding-right: 400px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 4px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+article>h2 {
+    font-family: 'idroid', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    padding-left: 20px;
+
+}
+
+article>p {
+    text-align: justify;
+    padding: 0px 20px;
+}
+
+p>a {
+    text-decoration: none;
+    font-weight: bold;
+    color: green;
+}
+
+article>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2.primeira {
+    background-image: linear-gradient(to right, green, rgb(112, 141, 112), white);
+}
+
+h2.segunda {
+    background-image: linear-gradient(to right, green, rgb(112, 141, 112), white);
+}

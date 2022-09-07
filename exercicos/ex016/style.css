@@ -1,0 +1,16 @@
+*{/*configuraçoes globais css*/
+height: 100%;
+}
+body{
+    color: #652AFA;
+    background-image: linear-gradient(to right, #7711FF,
+    #FF00D5,#FF0054,#FF6900,#FFC200,#FF9300);
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-attachment: fixed;
+
+}
+h1{
+    color: #ED347E;
+    font-size: 60px;
+}

@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\.."
+		},
+		{
+			"path": "..\\..\\..\\..\\Ewerton Exercicos"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Ewerton front-end"
+	}
+}
